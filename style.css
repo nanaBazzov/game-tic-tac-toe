@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@400;500;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'radio canada',sans-serif;
+}
+
+body{
+
+    background: #304352; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #304352, #d7d2cc); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #304352, #d7d2cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+.header{
+    text-align: center;
+    color: snow;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+p{
+    color: snow;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn{
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 75px;
+    margin: 2px;
+    width: 75px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+.btn:hover{
+    color: black;
+    cursor: no-drop;
+}
+
+
+.btn:disabled{
+    text-align: center;
+}
+
+.result{
+    text-align: center;
+}
+
+
+.reset{
+    text-align: center;
+}
+
+#reset{
+    border: 1px solid white;
+    cursor: pointer;
+    color: snow;
+    background: #304352; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #304352, #d7d2cc); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #304352, #d7d2cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 17px;
+    margin: 35px;
+
+}
+
+
+#reset:hover {
+    color: white;
+    background-color: black;
+}
